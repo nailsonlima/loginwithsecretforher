@@ -1,0 +1,13 @@
+* {
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background: url('../assets/bg.gif');
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: white;
+}

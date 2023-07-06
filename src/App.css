@@ -1,0 +1,50 @@
+.app {
+    display: flex;
+    width: 99vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.off {
+    display: none;
+}
+
+.form {
+    min-width: 18rem;
+    min-height: 18rem;
+    background-color: #494baa42;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.form div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form div label {
+    font-size: 2rem;
+}
+.form div input {
+    width: 9rem;
+    height: 2rem;
+    border-radius: 1rem;
+    outline: none;
+    font-size: 1.2rem;
+}
+.form div button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: #b6afaf56;
+    border: none;
+    color: aliceblue;
+}
+.form div button:hover {
+    background-color: #000000;
+}
